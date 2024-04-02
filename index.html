@@ -16,7 +16,20 @@
 
         .box {
             width: 200px;
-            border: 1px solid black;
+            border: 5px dotted black;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            margin-left: 30px;
+            padding: 10px;
+            background-color: #FEBE98;
+            text-transform: uppercase;
+            font-weight: 700;
+            display: inline-block;
+            font-size: 1.5rem;
+        }
+
+        .important {
+            border-color: red;
         }
     </style>
 </head>
@@ -47,12 +60,16 @@
         <h2>2. Utiliza las herramientas de desarrollo para hacer un pantallazo del modelo de caja de uno de las cajas.
             Inserta el pantallazo en el siguiente DIV. Además, usa un estilo en línea para hacer que la imagen <i>flote
                 a la izquierda</i> alrededor del texto </h2>
-        <div style="">
-            <img src=""></img>
+        <div style="float: left;">
+            <img src="caja.png"></img>
         </div>
 
         <h3>BONUS (no lo hemos visto en clase aún): ¿Cuántos píxeles tiene el tamaño de la letra de las cajas? ¿Por qué?
         </h3>
+        <details>
+            <summary>Solución</summary>
+            <p>Son 27 px. Porque 1.5rem -> 18px * 1.5 = 27 </p>
+        </details>
     </main>
 </body>
 
